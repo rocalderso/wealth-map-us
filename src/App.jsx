@@ -76,11 +76,11 @@ const App = () => {
     <span style={{ background: "#006d2c" }}></span>  {/* dark green */}
   </div>
   <div className="legend-values">
-    <span>$20k</span>
-    <span>$50k</span>
-    <span>$80k</span>
-    <span>$120k</span>
-    <span>$200k+</span>
+    <span>$30k</span>
+    <span>$60k</span>
+    <span>$100k</span>
+    <span>$170k</span>
+    <span>$250k+</span>
   </div>
 </div>
 
