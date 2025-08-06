@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>U.S. Wealth Map – Calder</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="%BASE_URL%favicon.svg" type="image/svg+xml" />
 
     <!-- Description (SEO + Social) -->
-    <meta name="description" content="An interactive map of U.S. household income, offering a detailed look at regional wealth distribution using Census data." />
+    <meta
+      name="description"
+      content="An interactive map of U.S. household income, offering a detailed look at regional wealth distribution using Census data."
+    />
 
     <!-- Open Graph (Link Preview for Facebook, LinkedIn, etc.) -->
     <meta property="og:title" content="U.S. Wealth Map – Calder" />
-    <meta property="og:description" content="Explore household income across the U.S. with this interactive income map by Calder." />
-    <meta property="og:image" content="/wealth-map-preview.png" />
-    <meta property="og:url" content="https://app.calder.so/wealth-map" />
+    <meta
+      property="og:description"
+      content="Explore household income across the U.S. with this interactive income map by Calder."
+    />
+    <meta property="og:image" content="%BASE_URL%wealth-map-preview.png" />
+    <meta property="og:url" content="https://app.calder.so/wealth-map/us" />
     <meta property="og:type" content="website" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="U.S. Wealth Map – Calder" />
-    <meta name="twitter:description" content="Explore household income across the U.S. with this interactive income map by Calder." />
-    <meta name="twitter:image" content="/wealth-map-preview.png" />
+    <meta
+      name="twitter:description"
+      content="Explore household income across the U.S. with this interactive income map by Calder."
+    />
+    <meta name="twitter:image" content="%BASE_URL%wealth-map-preview.png" />
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="%BASE_URL%src/main.jsx"></script>
   </body>
 </html>

@@ -55,9 +55,9 @@ const App = () => {
       <div className="info-box">
         <a href="https://calder.so" target="_blank" rel="noopener noreferrer">
         <img
-          src="/calder-logo.png"
-          alt="Calder Logo"
-          style={{ maxWidth: "25px" }}
+        src={`${import.meta.env.BASE_URL}calder-logo.png`}
+        alt="Calder Logo"
+        style={{ maxWidth: "25px" }}
         />
         </a>
         <h1>U.S. Wealth Map</h1>
